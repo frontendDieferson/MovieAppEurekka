@@ -20,9 +20,7 @@ Projeto Teste técnico para vaga Desenvolvedor Mobile
 ## Screenshots
 
 ![Login e Cadastro](https://user-images.githubusercontent.com/62387982/204652164-6826a646-512f-4fff-8436-7b7e61cd3684.png)
-
 ![Home e Detalhes](https://user-images.githubusercontent.com/62387982/204652192-bea0ac32-6dae-4af9-bf51-db4b07f550e8.png)
-
 ![Menu lateral e Pesquisas](https://user-images.githubusercontent.com/62387982/204652206-ebed6e3f-f4cd-430f-937f-ed8899a3f4ef.png)
 
 
