@@ -21,7 +21,7 @@ function Header(){
                 <Feather
                     name="menu"
                     size={36}
-                    color='red'
+                    color='#FFF'
                 />
             </MenuButton>
             <Logo source={logo} />

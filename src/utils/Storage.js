@@ -1,10 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 //Buscar os Filmes salvos
-export async function getMovieSave() {
+export async function getMovieSave(key) {
     const myMovies = await AsyncStorage.getItem(key)
 
-    let moviesSave = JASON.parse(myMovies) || [];
+    let moviesSave = JSON.parse(myMovies) || [];
     return moviesSave;
 }
 
@@ -29,7 +29,5 @@ export async function getMovieSave() {
 
 } 
 //Deletar um filme específico
-
-
 
 //Filtrar um filme que já foi salvo

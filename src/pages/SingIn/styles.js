@@ -12,7 +12,8 @@ export const Logo = styled.Image.attrs({
     width: 50%;
     height: 10%;
     margin-bottom: 30px;
-`
+`;
+
 export const ImageBackground = styled.ImageBackground.attrs({
     resizeMode: 'stretch'
 })`
@@ -70,3 +71,10 @@ export const Text = styled.Text`
     font-size: 16px;
     font-weight: bold;
 `
+
+export const TextLogo = styled.Text`
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+`;

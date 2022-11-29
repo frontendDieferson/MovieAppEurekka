@@ -28,7 +28,7 @@ function AuthRoutes(){
                     headerStyle:{
                         backgroundColor: 'black',
                         borderBottomWidth: 1,
-                        borderBottomColor: 'red'
+                        borderBottomColor: '#FEE03B'
                     },
                     headerTintColor: '#fff',
                     headerBackTitleVisible: false,
@@ -56,7 +56,7 @@ function AuthRoutes(){
                     headerStyle:{
                         backgroundColor: 'black',
                         borderBottomWidth: 1,
-                        borderBottomColor: 'red'
+                        borderBottomColor: '#FEE03B'
                     },
                     headerTintColor: '#fff',
                     headerBackTitleVisible: false,

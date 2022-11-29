@@ -35,7 +35,7 @@ function Profile() {
   //Função para deslogar o usuário
   function logoutFirebase() {
     firebase.auth().signOut().then(() => {
-      navigation.navigate('Home')
+      navigation.navigate('SingIn')
     }).catch((error) => {
       console.log('erro')
     })

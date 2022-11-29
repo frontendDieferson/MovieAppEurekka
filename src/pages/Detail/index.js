@@ -41,7 +41,7 @@ function Detail() {
             const response = await api.get(`/movie/${route.params?.id}`, {
                 params: {
                     api_key: key,
-                    language: 'pt-BR'
+                    language: 'pt-BR',
                 }
             })
             .catch((err) =>{
@@ -61,8 +61,8 @@ function Detail() {
     }, [])
 
     //Função para salvar um filme na lista de favoritos
-    async function favoriteMovie(movie){
-        await saveMovie('movieapp', movie)
+    async function favoriteMovie(movie, id){
+        await saveMovie('movieapp', movie, id)
         alert('Filme salvo com sucesso')
     }
 

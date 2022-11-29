@@ -3,6 +3,7 @@ import firebase from "../../config/firebaseConnection";
 import {
   Container,
   Logo,
+  TextLogo,
   Input,
   ContainerInput,
   Button,
@@ -44,6 +45,7 @@ export function SingUp() {
 
       <Container behavior={Platform.OS === "ios" ? "padding" : ""} enable>
             <Logo source={logo} />
+            <TextLogo>Encontre o filme ideal para seu cinema...</TextLogo>
         <ContainerInput>
           <Input
             placeholder="Nome"

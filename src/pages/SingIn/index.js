@@ -4,6 +4,7 @@ import firebase from "../../config/firebaseConnection";
 import {
   Container,
   Logo,
+  TextLogo,
   Input,
   ContainerInput,
   Button,
@@ -57,7 +58,7 @@ export function SingIn() {
   return (
       <Container behavior={Platform.OS === "ios" ? "padding" : ""} enable>
         <Logo source={logo} />
-        <Text>Encontre o filme ideal para seu cinema...</Text>
+        <TextLogo>Encontre o filme ideal para seu cinema...</TextLogo>
         <ContainerInput>
           <Input
             placeholder="E-mail"

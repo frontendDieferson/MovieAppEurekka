@@ -9,6 +9,7 @@ export const Container = styled.View`
 export const Logo = styled.Image`
     width: 40%;
     height: 70%;
+    margin-left: 10px;
 `
 export const MenuButton = styled.TouchableOpacity`
     height: 70px;
